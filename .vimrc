@@ -1,8 +1,15 @@
 "
 " Vimの設定ファイル
 "
+" @desc
+" プラグインの管理は、NeoBundle
+" デフォルトのカラースキームはmolokai
+" ショートカットコマンドも作っておく
 
-" molokaiのテーマを使用する
+" ### ショートカットコマンド ###
+nnoremap NT :NERDTree<CR>
+
+" ### molokaiのテーマを使用する ###
 syntax on
 colorscheme molokai
 set t_Co=256
@@ -22,6 +29,9 @@ if has('vim_starting')
   " NeoBundleで管理しているプラグイン
   NeoBundle 'scrooloose/nerdtree' " ツリー表示
   NeoBundle 'Shougo/unite.vim'
+
+  " Colorscheme 「solarized」
+  NeoBundle 'altercation/vim-colors-solarized'
 
   call neobundle#end()
 endif
