@@ -9,12 +9,6 @@
 " ### ショートカットコマンド ###
 nnoremap NT :NERDTree<CR>
 
-" ### molokaiのテーマを使用する ###
-syntax on
-colorscheme molokai
-set t_Co=256
-
-
 " ### NeoBundleの設定 ###
 set nocompatible
 filetype plugin indent off
@@ -29,11 +23,20 @@ if has('vim_starting')
   " NeoBundleで管理しているプラグイン
   NeoBundle 'scrooloose/nerdtree' " ツリー表示
   NeoBundle 'Shougo/unite.vim'
+  NeoBundle 'ujihisa/unite-colorscheme'
 
-  " Colorscheme 「solarized」
+  " Colorscheme
+  NeoBundle 'tomasr/molokai'
   NeoBundle 'altercation/vim-colors-solarized'
+  NeoBundle 'croaker/mustang-vim'
+  NeoBundle 'nanotech/jellybeans.vim'
 
   call neobundle#end()
+
+  " ### molokaiのテーマを使用する ###
+  syntax on
+  colorscheme molokai
+  set t_Co=256
 endif
 
 filetype plugin indent on
