@@ -57,6 +57,9 @@ if has('vim_starting')
   NeoBundle 'altercation/vim-colors-solarized'
   NeoBundle 'croaker/mustang-vim'
   NeoBundle 'nanotech/jellybeans.vim'
+  NeoBundle 'w0ng/vim-hybrid'
+  NeoBundle 'modess/vim-phpcolors'
+  NeoBundle 'chriskempson/vim-tomorrow-theme'
 
   call neobundle#end()
 
@@ -74,6 +77,7 @@ filetype plugin indent on
 " 表示設定
 set title "編集中のファイル名を表示
 "set number         " 行番号を表示する
+"qG
 "set cursorline     " カーソル行の背景色を変える
 "set cursorcolumn   " カーソル位置のカラムの背景色を変える
 set showmatch      " 対応する括弧を強調表示
