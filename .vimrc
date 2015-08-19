@@ -60,6 +60,7 @@ if has('vim_starting')
   NeoBundle 'w0ng/vim-hybrid'
   NeoBundle 'modess/vim-phpcolors'
   NeoBundle 'chriskempson/vim-tomorrow-theme'
+  " NeoBundle 'rhysd/vim-color-splatoon'
 
   call neobundle#end()
 
