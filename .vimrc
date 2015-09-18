@@ -26,6 +26,7 @@ if has('vim_starting')
   NeoBundle 'Shougo/unite.vim'
   NeoBundle 'ujihisa/unite-colorscheme'
   NeoBundle 'Shougo/neomru.vim'
+  NeoBundle 'fatih/vim-go'
 
   " http://blog.remora.cx/2010/12/vim-ref-with-unite.html
   """"""""""""""""""""""""""""""
