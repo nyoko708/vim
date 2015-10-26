@@ -28,6 +28,8 @@ if has('vim_starting')
   NeoBundle 'Shougo/neomru.vim'
   NeoBundle 'fatih/vim-go'
   NeoBundle 'elixir-lang/vim-elixir'
+  NeoBundle 'Rykka/clickable.vim'       " sphinx の依存プラグイン
+  NeoBundle 'Rykka/riv.vim'
 
   " http://blog.remora.cx/2010/12/vim-ref-with-unite.html
   """"""""""""""""""""""""""""""
